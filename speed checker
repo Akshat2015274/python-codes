@@ -1,0 +1,14 @@
+print("This is the speed checker")
+import time
+time.sleep(1)
+Time=float(input("Enter Distance:"))
+Distance=float(input("Enter Time:"))
+Speed=Time/Distance
+if(Speed>=80):
+    print("Over speeding.Pls go slow.")
+elif(Speed>=80) and (Speed<80):
+    print("Drive with caution")
+elif(Speed>=40) and (Speed<60):
+    print("Acceptable Speed")
+else:
+    print("You're driving smartly!")
